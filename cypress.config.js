@@ -29,24 +29,4 @@ module.exports = defineConfig({
     specPattern: "cypress/e2e/*.feature",
     watchForFileChanges: false,
   },
-  browsers: [
-    {
-      name: "electron",
-      channel: "stable",
-      family: "chromium",
-      displayName: "Electron",
-      version: "114.0.5735.289",
-      path: "",
-      majorVersion: 114,
-    },
-    {
-      name: "chrome",
-      channel: "stable",
-      family: "chromium",
-      displayName: "chrome",
-      version: "121.0.6167.139",
-      path: "/Applications/Chrome.app/Contents/MacOS/Google Chrome",
-      majorVersion: 121,
-    },
-  ],
 });
